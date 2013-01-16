@@ -1,0 +1,45 @@
+class Animal
+  def talk
+	"Bonjour,je suis un animal qui parle"
+	end
+	def walk
+	"je marche"
+	end
+	def eat(truc)
+	"#{self}hmmmmm... le #{truc} est bon ! "
+	end 
+end
+
+
+
+  class Duck < Animal
+  end
+
+  class Snake < Animal
+  end
+  
+  class Lion < Animal
+  end
+ 
+ class Poisson < Animal
+ end
+ 
+ class Souris < Animal
+ end
+ 
+ class Zebre < Animal
+ end
+ 
+ donald=Duck.new 
+ a=Lion.new
+ b=Snake.new
+ p=Poisson.new
+ s=Souris.new
+ z=Zebre.new
+ 
+  
+  puts z.talk
+  puts s.walk
+  puts donald.eat(p)
+  
+  
